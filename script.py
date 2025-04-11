@@ -14,5 +14,4 @@ else:
     filmes = response.json()
 
     for filme in filmes:
-
         print(f'Título: {filme["title"]:<40} Nomeações: {filme["nominations"]:>3}   Prêmios: {filme["awards"]:>3}')
